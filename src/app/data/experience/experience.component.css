@@ -1,0 +1,74 @@
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 83vh;
+}
+
+/* scondary content tag */
+.content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* ***** left div tag ***** */
+.left {
+    width: 75%;
+    margin: 5%;
+    padding: 30px;
+    float: right;
+    background-color: rgba(128, 128, 128, 0.3);
+    border: 2px solid gray;
+    border-radius: 24px;
+    font-family: geneva;
+}
+
+/* left div heading tag */
+.left .hed {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* left div para tag */
+.left p {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 2;
+}
+
+/* ***** right div tag ***** */
+.right {
+    width: 75%;
+    margin: 2%;
+    padding-left: 5%;
+    float: right;
+    font-family: geneva;
+}
+
+/* right div heading tag */
+.right .head {
+    margin: 10% 0% 0% 0%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* right div grid div tag */
+.grid {
+    width: 100%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+/* grid tag of first div tag */
+.one {
+    width: 100%;
+}
+
+.one .hed {
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,100 @@
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 83vh;
+}
+
+/* over project content */
+.over {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+/* ***** project-1 tag ***** */
+.project1 {
+    width: 100%;
+    margin: 10% 20%;
+    font-family: geneva;
+}
+
+/* project-1 image tag */
+.img1 {
+    width: 500px;
+    height: 250px;
+    background-image: url('../../assets/images/rescue.png');
+    background-size: cover;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.img1:hover {
+    transform: scale(1.05);
+}
+
+/* project-1 para tag */
+.project1 p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* ****** project-2 tag ***** */
+.project2 {
+    width: 100%;
+    margin: 10% 25%;
+    font-family: geneva;
+}
+
+/* project-2 image tag */
+.img2 {
+    width: 500px;
+    height: 250px;
+    background-image: url('../../assets/images/garbage.png');
+    background-size: cover;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.img2:hover {
+    transform: scale(1.05);
+}
+
+/* project-2 para tag */
+.project2 p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        height: 83vh;
+    }
+
+    /* ***** project-1 tag ***** */
+    .project1 {
+        width: 100%;
+        margin: 20%;
+    }
+
+    /* project-1 image tag */
+    .img1 {
+        width: 400px;
+        height: 200px;
+    }
+
+    /* ****** project-2 tag ***** */
+    .project2 {
+        width: 100%;
+        margin: 20% 30%;
+    }
+
+    /* project-2 image tag */
+    .img2 {
+        width: 400px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,97 @@
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 83vh;
+}
+
+/* primary content tag */
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* ***** left div tag ***** */
+.left {
+    width: 75%;
+    margin: 5%;
+    padding: 20px;
+    float: right;
+    background-color: rgba(128, 128, 128, 0.3);
+    border: 2px solid gray;
+    border-radius: 24px;
+    font-family: geneva;
+}
+
+/* left div heading tag */
+.left .head {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* left div para tag */
+.left p {
+    margin: 0;
+    padding: 15px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 2;
+}
+
+/* ***** right div tag ***** */
+.right {
+    width: 75%;
+    margin: 2% 5%;
+    float: right;
+    font-family: geneva;
+}
+
+/* right div heading tag */
+.right .head {
+    margin: 0%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right .hed {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* right div grid div tag */
+.grid {
+    width: 100%;
+    margin: 1%;
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+/* grid tag of all three div tag */
+.one,
+.two,
+.three {
+    width: 100%;
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        height: 83vh;
+    }
+
+    /* ***** left div tag ***** */
+    .left {
+        width: 75%;
+        margin: 3% 5%;
+        padding: 15px;
+    }
+
+    /* ***** right div tag ***** */
+    .right {
+        width: 75%;
+        margin: 5%;
+    }
+}
