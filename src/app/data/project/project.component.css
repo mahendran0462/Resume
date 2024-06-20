@@ -25,7 +25,7 @@
 .img1 {
     width: 500px;
     height: 250px;
-    background-image: url('../../assets/images/rescue.png');
+    background-image: url('../../../assets/images/rescue.png');
     background-size: cover;
     border-radius: 16px;
     box-shadow: 5px 5px 5px gray;
@@ -52,7 +52,7 @@
 .img2 {
     width: 500px;
     height: 250px;
-    background-image: url('../../assets/images/garbage.png');
+    background-image: url('../../../assets/images/garbage.png');
     background-size: cover;
     border-radius: 16px;
     box-shadow: 5px 5px 5px gray;
