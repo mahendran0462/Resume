@@ -10,7 +10,7 @@
     padding: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 55% 45%;
 }
 
 /* secondary div tag */
@@ -26,7 +26,7 @@
 .small {
     margin: 0;
     margin-bottom: -3%;
-    font-size: 18px;
+    font-size: 42px;
     font-weight: bold;
 }
 
@@ -45,7 +45,7 @@
     height: 30px;
     padding: 4px;
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
     background-color: rgba(92, 92, 251, 0.721);
@@ -63,8 +63,18 @@
     font-weight: lighter;
 }
 
-img {
-    margin: 18% 5%;
+/* for home page image */
+.img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imge {
+    margin: 18% 0%;
     border-radius: 8px;
     box-shadow: 4px 4px 5px gray;
 }
@@ -92,10 +102,15 @@ img {
     }
 
     .small {
-        font-size: 18px;
+        font-size: 30px;
     }
 
-    img {
+    .img {
+        width: 100%;
+        display: flex;
+    }
+
+    .imge {
         margin: 18% 0%;
         width: 450px;
     }

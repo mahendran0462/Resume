@@ -44,7 +44,7 @@
 /* ***** right div tag ***** */
 .right {
     width: 75%;
-    margin: 2% 5%;
+    margin: 1.5% 5%;
     float: right;
     font-family: geneva;
 }
@@ -66,7 +66,7 @@
     width: 100%;
     margin: 1%;
     display: grid;
-    grid-template-rows: 33.3% 33.3% 33.3%;
+    grid-template-rows: 28% 28% 28%;
 }
 
 /* grid tag of all three div tag */
@@ -85,13 +85,21 @@
     /* ***** left div tag ***** */
     .left {
         width: 75%;
-        margin: 3% 5%;
+        margin: 2% 5%;
+        margin-bottom: 5%;
         padding: 15px;
     }
 
     /* ***** right div tag ***** */
     .right {
         width: 75%;
-        margin: 5%;
+        margin: 2% 5%;
+    }
+
+    .grid {
+        width: 100%;
+        margin: 0%;
+        display: grid;
+        grid-template-rows: 28% 28% 28%;
     }
 }
